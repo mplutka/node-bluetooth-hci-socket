@@ -32,7 +32,7 @@
     "node-pre-gyp": "^0.15.0"
   },
   "optionalDependencies": {
-    "usb": "git+https://github.com/mplutka/node-usb.git#5415031cc0d2df8731711dcfa467d5443d0e9da8"
+    "usb": "git+https://github.com/mplutka/node-usb.git"
   },
   "devDependencies": {
     "jshint": "^2.12.0"
