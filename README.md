@@ -1,5 +1,29 @@
 # node-bluetooth-hci-socket
 
+[![GitHub forks](
+https://img.shields.io/github/forks/abandonware/node-bluetooth-hci-socket.svg?style=social&label=Fork&maxAge=2592000
+)](
+https://GitHub.com/abandonware/node-bluetooth-hci-socket/network/
+)
+[![license](
+https://img.shields.io/badge/license-MIT-0.svg
+)](MIT)
+[![NPM](
+https://img.shields.io/npm/v/@abandonware/bluetooth-hci-socket.svg
+)](
+https://www.npmjs.com/package/@abandonware/bluetooth-hci-socket
+)
+[![Fediverse](
+https://img.shields.io/mastodon/follow/279303?domain=https%3A%2F%2Fmastodon.social&style=social#rzr
+)](
+https://mastodon.social/@rzr/103886495590566533#bluetooth-hci-socket
+)
+[![IRC Channel](
+https://img.shields.io/badge/chat-on%20libera-brightgreen.svg
+)](
+https://kiwiirc.com/client/irc.libera.chat/#iot
+)
+
 Bluetooth HCI socket binding for Node.js
 
 __NOTE:__ Currently only supports __Linux__, __FreeBSD__ and __Windows__.
@@ -31,6 +55,7 @@ Note:
 | Name | USB VID | USB PID |
 |:---- | :------ | :-------|
 | BCM920702 Bluetooth 4.0 | 0x0a5c | 0x21e8 |
+| BCM920702 Bluetooth 4.0 | 0x0a5c | 0x21f1 |
 | BCM20702A0 Bluetooth 4.0 | 0x19ff | 0x0239 |
 | BCM20702A0 Bluetooth 4.0 | 0x0489 | 0xe07a |
 | BCM20702A0 Bluetooth 4.0 | 0x413c | 0x8143 |
