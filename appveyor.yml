@@ -7,12 +7,14 @@ environment:
   GYP_MSVS_VERSION: 2013
 
   matrix:
-    - node_version: '10'
     - node_version: '12'
+    - node_version: '14'
+    - node_version: '16'
+    - node_version: '18'
 
 install:
   - ps: Install-Product node $env:node_version $env:platform
-  - ps: npm install -g node-gyp node-pre-gyp-github
+  - cmd: npm install -g node-gyp node-pre-gyp-github
   - ps: if ($env:appveyor_repo_tag -match "true" -and $env:appveyor_repo_tag_name -match '^v?[0-9]') { $publish_binary=1; }
 
 build_script:
